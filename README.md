@@ -1,3 +1,3 @@
 # Calculator
-Pretty self explanatory honestly
+Pretty self explanatory honestly <br>
 https://hrishavgl.github.io/calculator
