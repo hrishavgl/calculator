@@ -1,3 +1,3 @@
 # Calculator
 Pretty self explanatory honestly
-hrishavgl.github.io/calculator
+https://hrishavgl.github.io/calculator
