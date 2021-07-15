@@ -16,20 +16,26 @@ body {
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(5, 100px) minmax(100px, auto);
+    grid-template-rows: minmax(100px, auto) repeat(6, 100px);
     
 }
 
 .grid button {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #ffffffcc;
     border: 0px;
     margin: 2px;
+    outline: none;
 }
 
 .grid button:hover {
     background-color: #ffffffaa;
+}
+
+#noHover:hover {
+    background-color: #ffffffcc;
+    cursor: default;
 }
 
 .double {

@@ -8,7 +8,7 @@
     <title>Calculator</title>
     <link rel="icon" href="images/logo.png">
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -40,6 +40,10 @@
         <button>.</button>
         <button>=</button>
         <button>-</button>
+        
+        <button id="easy" onclick="difficulty('easyMode')">Easy</button>
+        <button id="noHover" class="double">Difficulty</button>
+        <button id="hard" onclick="difficulty('hardMode')">Hard</button>
     </div>
 </body>
 
