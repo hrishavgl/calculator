@@ -7,43 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="icon" href="images/logo.png">
-    <link href="style.css" rel="stylesheet">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet"href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="grid">
-        <div class="output">
-            <div class="previous"></div>
-            <div class="current"></div>
-        </div>
+        <div id="outputArea">calculations that solve your tribulations</div>
+        <button class="doubleWidth" onclick="clearOutput()">AC</button>
+        <button class="doubleWidth" onclick="removeLast()">DEL</button>
 
-        <button class="double">AC</button>
-        <button class="double">DEL</button>
+        <button onclick="calculation(textContent)">÷</button>
+        <button onclick="calculation(textContent)">x</button>
+        <button onclick="calculation(textContent)">+</button>
+        <button onclick="calculation(textContent)">-</button>
 
-        <button>÷</button>
-        <button>x</button>
-        <button>+</button>
-        <button>-</button>
+        <button onclick="calculation(textContent)">1</button>
+        <button onclick="calculation(textContent)">2</button>
+        <button onclick="calculation(textContent)">3</button>
+        <button onclick="calculation(textContent)">4</button>
 
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
+        <button onclick="calculation(textContent)">5</button>
+        <button onclick="calculation(textContent)">6</button>
+        <button onclick="calculation(textContent)">7</button>
+        <button onclick="calculation(textContent)">8</button>
 
-        <button>5</button>
-        <button>6</button>
-        <button>7</button>
-        <button>8</button>
+        <button onclick="calculation(textContent)">9</button>
+        <button onclick="calculation(textContent)">0</button>
+        <button onclick="calculation(textContent)">.</button>
+        <button onclick="calculation(textContent)">=</button>
 
-        <button>9</button>
-        <button>0</button>
-        <button>.</button>
-        <button>=</button>
-        
-        <button id="easy" onclick="difficulty('easyMode')">Easy</button>
-        <button id="noHover" class="double">Difficulty</button>
-        <button id="hard" onclick="difficulty('hardMode')">Hard</button>
+        <button id="easyButton" onclick="setDifficulty('easyMode')">Easy</button>
+        <button id="noHoverEffect" class="doubleWidth">Difficulty</button>
+        <button id="hardButton" onclick="setDifficulty('hardMode')">Hard</button>
     </div>
 </body>
 
