@@ -10,14 +10,17 @@
 
 <body>
     <div class="grid">
-        <div id="output">calculations that solve your tribulations</div>
+        <div id="output">calculations to solve all your trials and tribulations</div>
+
         <button class="wide" onclick="removeAll()">AC</button>
         <button class="wide" onclick="removeLast()">DEL</button>
+        <button onclick="output.textContent=eval(output.textContent)">=</button>
 
         <button onclick="addValue(textContent)">/</button>
         <button onclick="addValue(textContent)">*</button>
         <button onclick="addValue(textContent)">+</button>
         <button onclick="addValue(textContent)">-</button>
+        <button onclick="addValue(textContent)">.</button>
 
         <button onclick="addValue(textContent)">1</button>
         <button onclick="addValue(textContent)">2</button>
@@ -31,12 +34,10 @@
 
         <button onclick="addValue(textContent)">9</button>
         <button onclick="addValue(textContent)">0</button>
-        <button onclick="addValue(textContent)">.</button>
-        <button onclick="output.textContent=eval(output.textContent)">=</button>
 
-        <button id="easy" onclick="setDifficulty('easyMode')">Easy</button>
-        <button id="difficulty" class="wide">Difficulty</button>
-        <button id="hard" onclick="setDifficulty('hardMode')">Hard</button>
+        <button id="easy" onclick="setDifficulty(textContent)">Easy</button>
+        <button id="difficulty">Difficulty</button>
+        <button id="hard" onclick="setDifficulty(textContent)">Hard</button>
     </div>
 </body>
 

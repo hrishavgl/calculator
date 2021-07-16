@@ -11,10 +11,10 @@ function removeLast() {
 }
 
 function setDifficulty(diff) {
-    if(diff == "easyMode") {
+    if(diff == "Easy") {
         easy.style.color = "red";
         hard.style.color = "black";
-    } else if(diff == "hardMode") {
+    } else if(diff == "Hard") {
         hard.style.color = "red";
         easy.style.color = "black";
     }

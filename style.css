@@ -16,8 +16,8 @@ body {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(auto, auto) repeat(6, 100px);
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: minmax(150px, auto) repeat(5, 100px);
     
 }
 
@@ -38,13 +38,21 @@ body {
     background-color: #ffffffaa;
 }
 
+#difficulty {
+    grid-column: span 3;
+}
+
 #difficulty:hover {
     background-color: #ffffffcc;
     cursor: default;
 }
 
+#easy {
+    color: red;
+}
+
 #output {
-    grid-column: 1 / -1;
+    grid-column: span 5;
     background-color: #000000cc;
     color: white;
     padding: 25px;
