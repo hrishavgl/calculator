@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet"href="style.css">
@@ -13,33 +10,33 @@
 
 <body>
     <div class="grid">
-        <div id="outputArea">calculations that solve your tribulations</div>
-        <button class="doubleWidth" onclick="clearOutput()">AC</button>
-        <button class="doubleWidth" onclick="removeLast()">DEL</button>
+        <div id="output">calculations that solve your tribulations</div>
+        <button class="wide" onclick="clearOutput()">AC</button>
+        <button class="wide" onclick="removeLast()">DEL</button>
 
-        <button onclick="calculation(textContent)">÷</button>
-        <button onclick="calculation(textContent)">x</button>
-        <button onclick="calculation(textContent)">+</button>
-        <button onclick="calculation(textContent)">-</button>
+        <button onclick="calculate(textContent)">/</button>
+        <button onclick="calculate(textContent)">*</button>
+        <button onclick="calculate(textContent)">+</button>
+        <button onclick="calculate(textContent)">-</button>
 
-        <button onclick="calculation(textContent)">1</button>
-        <button onclick="calculation(textContent)">2</button>
-        <button onclick="calculation(textContent)">3</button>
-        <button onclick="calculation(textContent)">4</button>
+        <button onclick="calculate(textContent)">1</button>
+        <button onclick="calculate(textContent)">2</button>
+        <button onclick="calculate(textContent)">3</button>
+        <button onclick="calculate(textContent)">4</button>
 
-        <button onclick="calculation(textContent)">5</button>
-        <button onclick="calculation(textContent)">6</button>
-        <button onclick="calculation(textContent)">7</button>
-        <button onclick="calculation(textContent)">8</button>
+        <button onclick="calculate(textContent)">5</button>
+        <button onclick="calculate(textContent)">6</button>
+        <button onclick="calculate(textContent)">7</button>
+        <button onclick="calculate(textContent)">8</button>
 
-        <button onclick="calculation(textContent)">9</button>
-        <button onclick="calculation(textContent)">0</button>
-        <button onclick="calculation(textContent)">.</button>
-        <button onclick="calculation(textContent)">=</button>
+        <button onclick="calculate(textContent)">9</button>
+        <button onclick="calculate(textContent)">0</button>
+        <button onclick="calculate(textContent)">.</button>
+        <button onclick="output.textContent=eval(output.textContent)">=</button>
 
-        <button id="easyButton" onclick="setDifficulty('easyMode')">Easy</button>
-        <button id="noHoverEffect" class="doubleWidth">Difficulty</button>
-        <button id="hardButton" onclick="setDifficulty('hardMode')">Hard</button>
+        <button id="easy" onclick="setDifficulty('easyMode')">Easy</button>
+        <button id="difficulty" class="wide">Difficulty</button>
+        <button id="hard" onclick="setDifficulty('hardMode')">Hard</button>
     </div>
 </body>
 

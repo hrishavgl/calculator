@@ -34,16 +34,16 @@ body {
     background-color: #ffffffaa;
 }
 
-#noHoverEffect:hover {
+#difficulty:hover {
     background-color: #ffffffcc;
     cursor: default;
 }
 
-.doubleWidth {
+.wide {
     grid-column: span 2;
 }
 
-#outputArea {
+#output {
     grid-column: 1 / -1;
     background-color: #000000cc;
     color: white;

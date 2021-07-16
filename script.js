@@ -1,7 +1,4 @@
 function setDifficulty(diff) {
-    easy = easyButton;
-    hard = hardButton;
-
     if(diff == "easyMode") {
         easy.style.color = "red";
         hard.style.color = "black";
@@ -12,13 +9,13 @@ function setDifficulty(diff) {
 }
 
 function clearOutput() {
-    outputArea.textContent = "";
+    output.textContent = "";
 }
 
 function removeLast() {
-    outputArea.textContent = outputArea.textContent.slice(0, -1);
+    output.textContent = output.textContent.slice(0, -1);
 }
 
-function calculation(val) {
-    alert(val);
+function calculate(val) {
+    output.textContent += val;
 }
