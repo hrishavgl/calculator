@@ -1,3 +1,3 @@
 # calculator
-Pretty self explanatory honestly <br>
+calculator with difficulty settings<br>
 https://hrishavgl.github.io/calculator

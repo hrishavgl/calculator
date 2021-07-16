@@ -22,5 +22,10 @@ function setDifficulty(diff) {
     } else if(diff == "Hard") {
         hard.style.color = "red";
         easy.style.color = "black";
+        randomizeButtons();
     }
+}
+
+function randomizeButtons() {
+    alert("still under construction");
 }
