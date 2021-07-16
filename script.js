@@ -1,5 +1,10 @@
 function addValue(val) {
-    output.textContent += val;
+    if(output.textContent.includes("a")) {
+        removeAll();
+        output.textContent += val;
+    } else {
+        output.textContent += val;
+    }
 }
 
 function removeAll() {
