@@ -1,3 +1,2 @@
-# calculator
-calculator with difficulty settings<br>
+calculator with difficulty levels<br>
 https://hrishavgl.github.io/calculator
