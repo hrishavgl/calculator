@@ -22,8 +22,17 @@ body {
     
 }
 
-.wide {
-    grid-column: span 2;
+#output {
+    grid-column: span 4;
+    background-color: #000000cc;
+    color: white;
+    padding: 25px;
+    margin: 2px;
+    word-break: break-all;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .grid button {
@@ -39,24 +48,15 @@ body {
     background-color: #ffffffaa;
 }
 
-#difficulty:hover {
-    background-color: #ffffffcc;
-    cursor: default;
+.wide {
+    grid-column: span 2;
 }
 
-#easy {
+#b17 {
     color: red;
 }
 
-#output {
-    grid-column: span 4;
-    background-color: #000000cc;
-    color: white;
-    padding: 25px;
-    margin: 2px;
-    word-break: break-all;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+#b18:hover {
+    background-color: #ffffffcc;
+    cursor: default;
 }

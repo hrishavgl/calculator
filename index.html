@@ -5,42 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>calculator</title>
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet"href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="grid">
         <div id="output">calculations to solve all your tribulations</div>
 
-        <button class="wide" onclick="removeAll()">AC</button>
-        <button class="wide" onclick="removeLast()">DEL</button>
+        <button class="wide" onclick="cal(textContent)">AC</button>
+        <button class="wide" onclick="cal(textContent)">DEL</button>
 
-        <button id="b01" onclick="addValue(textContent)">7</button>
-        <button id="b02" onclick="addValue(textContent)">8</button>
-        <button id="b03" onclick="addValue(textContent)">9</button>
-        <button id="b04" onclick="addValue(textContent)">/</button>
+        <button id="b01" onclick="cal(textContent)">7</button>
+        <button id="b02" onclick="cal(textContent)">8</button>
+        <button id="b03" onclick="cal(textContent)">9</button>
+        <button id="b04" onclick="cal(textContent)">/</button>
 
-        <button id="b05" onclick="addValue(textContent)">4</button>
-        <button id="b06" onclick="addValue(textContent)">5</button>
-        <button id="b07" onclick="addValue(textContent)">6</button>
-        <button id="b08" onclick="addValue(textContent)">*</button>
+        <button id="b05" onclick="cal(textContent)">4</button>
+        <button id="b06" onclick="cal(textContent)">5</button>
+        <button id="b07" onclick="cal(textContent)">6</button>
+        <button id="b08" onclick="cal(textContent)">*</button>
 
-        <button id="b09" onclick="addValue(textContent)">1</button>
-        <button id="b10" onclick="addValue(textContent)">2</button>
-        <button id="b11" onclick="addValue(textContent)">3</button>
-        <button id="b12" onclick="addValue(textContent)">+</button>
+        <button id="b09" onclick="cal(textContent)">1</button>
+        <button id="b10" onclick="cal(textContent)">2</button>
+        <button id="b11" onclick="cal(textContent)">3</button>
+        <button id="b12" onclick="cal(textContent)">+</button>
 
-        <button id="b13" onclick="output.textContent = eval(output.textContent)">=</button>
-        <button id="b14" onclick="addValue(textContent)">0</button>
-        <button id="b15" onclick="addValue(textContent)">.</button>
-        <button id="b16" onclick="addValue(textContent)">-</button>
+        <button id="b13" onclick="cal(textContent)">=</button>
+        <button id="b14" onclick="cal(textContent)">0</button>
+        <button id="b15" onclick="cal(textContent)">.</button>
+        <button id="b16" onclick="cal(textContent)">-</button>
 
-        <button id="easy" onclick="setDifficulty(textContent)">Easy</button>
-        <button id="difficulty" class="wide">Difficulty</button>
-        <button id="hard" onclick="setDifficulty(textContent)">Hard</button>
+        <button id="b17" onclick="cal(textContent)">Easy</button>
+        <button id="b18" class="wide">Difficulty</button>
+        <button id="b19" onclick="cal(textContent)">Hard</button>
     </div>
 </body>
 
